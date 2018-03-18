@@ -3,7 +3,7 @@ import React from 'react';
 const Tools = () => {
     return (
         <div>
-            <h2>TTTTTTTTTTOOOOOO</h2>
+            <h2 style={{textAlign: 'center'}}>Tools</h2>
         </div>
     )
 };

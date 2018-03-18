@@ -3,7 +3,7 @@ import React from 'react';
 const Archive = () => {
     return (
         <div>
-            <h2>AAAAAAAAAAAAAAAAAAAAAAAAAAAA</h2>
+            <h2 style={{textAlign: 'center'}}>Archive</h2>
         </div>
     )
 };

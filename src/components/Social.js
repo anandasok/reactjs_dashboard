@@ -3,7 +3,7 @@ import React from 'react';
 const Social = () => {
     return (
         <div>
-            <h2>sssssssssssssssssssss</h2>
+            <h2 style={{textAlign: 'center'}}>Social</h2>
         </div>
     )
 }
