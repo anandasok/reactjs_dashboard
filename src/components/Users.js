@@ -3,7 +3,7 @@ import React from 'react';
 const Users = () => {
     return (
         <div>
-            <h2>UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU</h2>
+            <h2 style={{textAlign: 'center'}}>Users</h2>
         </div>
     )
 };

@@ -1,0 +1,26 @@
+div[class^="line-chart"] .y.axis line {
+    stroke: #353434 !important;
+}
+
+div[class^="line-chart"] .axis circle, div[class^="line-chart"] .axis text {
+    display: none !important;
+}
+
+div[class^="line-chart"] {
+    position: relative;
+    left: -50px;
+}
+
+div[class^="line-chart"] .axis path {
+    stroke: darkslategrey;
+    stroke-width: 1;
+}
+
+div[class^="line-chart"] g.lineChart path {
+    stroke-width: 5px !important;
+}
+
+.btm-txt-line-chart {
+    position: relative;
+    top: -40px;
+}

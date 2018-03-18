@@ -3,7 +3,7 @@ import React from 'react';
 const Documents = () => {
     return (
         <div>
-            <h2>DDDDDDDDDDDDDDDDDDDDDDDDDOOOOO</h2>
+            <h2 style={{textAlign: 'center'}}>Documents</h2>
         </div>
     )
 };
