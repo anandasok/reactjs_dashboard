@@ -1,0 +1,4 @@
+div[class^="bar-chart"] {
+    position: relative;
+    left: -25px;
+}

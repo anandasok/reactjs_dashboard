@@ -1,0 +1,13 @@
+#area-chart {
+    /*border: 1px solid #ff0000;*/
+    overflow-x: hidden;
+}
+
+div[class^="area-chart"] .y.axis line {
+    stroke: #353434 !important;
+}
+
+div[class^="area-chart"] {
+    position: relative;
+    left: -25px;
+}

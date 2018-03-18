@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 
 import {BarChart} from 'react-easy-chart';
+import '../css/BarChart.css';
 const $ = require('jquery');
 
 class BarCharts extends Component {

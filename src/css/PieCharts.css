@@ -1,0 +1,33 @@
+path[class^="pie-chart-slice"] {
+    stroke: none !important;
+    transition: all 1s ease-in-out 0s;
+    -moz-transition: all 1s ease-in-out 0s;
+    -webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+}
+
+path[class^="pie-chart-slice"]:hover {
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.summary-report-txt {
+    position: absolute;
+    top: 80px;
+    left: 90px;
+}
+
+.report-percentage-txt {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.report-avg-txt {
+    color: #f6f6f6;
+    left: 12px;
+    position: relative;
+}

@@ -1,12 +1,11 @@
 #content-area {
-    color: #ffffff;
-    background-color: rgba(0, 0, 0, 0.82);
-    padding-top: 5px;
     font-size: 12px;
 }
 
-.row {
-    margin-right: 10%;
+#dashboard {
+    color: #ffffff;
+    background-color: #222;
+    padding-top: 20px;
 }
 
 @media (min-width: 768px) {
@@ -15,7 +14,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     #content-area {
         margin-top: 52px;
     }
