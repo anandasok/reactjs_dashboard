@@ -3,8 +3,9 @@ import React, {Component} from 'react';
 import AreaCharts from './AreaCharts';
 import PieCharts from './PieCharts';
 import Orders from './Orders';
-import Products from './Products';
 import BarCharts from './BarCharts';
+import Products from './Products';
+import LineCharts from './LineCharts';
 
 class Dashboard extends Component {
 
@@ -40,7 +41,7 @@ class Dashboard extends Component {
                         </div>
 
                         <div className="col-md-4">
-
+                            <LineCharts />
                         </div>
                     </div>
 
