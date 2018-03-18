@@ -33,11 +33,17 @@
 }
 
 .navbar-form .form-control {
-    background-color: #9E9E9E;
+    background-color: #b3abab;
     border-radius: 18px;
-    /*background-image: url('search-icon-1.png');*/
     background-position: 10px 5px;
     background-repeat: no-repeat;
+}
+
+input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
 }
 
 @media (min-width:768px) {

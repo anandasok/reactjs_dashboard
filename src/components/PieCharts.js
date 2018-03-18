@@ -65,7 +65,7 @@ class PieCharts extends Component {
 }
 
 const pieDataCustom = [
-    {key: 'New Customers', value: 100, color: '#A185FD'},
+    {key: 'New Costumers', value: 100, color: '#A185FD'},
     {key: 'Sales', value: 200, color: '#31A3D7'},
     {key: 'Refound', value: 50, color: '#0277DA'}
 ];

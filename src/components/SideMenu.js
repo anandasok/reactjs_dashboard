@@ -116,7 +116,7 @@ class SideMenu extends Component {
 
                         <form className="navbar-form" role="search">
                             <div className="form-group">
-                                <input type="text" className="form-control" />
+                                <input type="text" className="form-control empty" placeholder="&#xF002;"/>
                             </div>
                         </form>
 
