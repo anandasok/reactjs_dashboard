@@ -1,0 +1,73 @@
+.CircularProgressbar {
+    width: 15% !important;
+    margin-right: 5%;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+    fill: #ffffff;
+}
+
+.bar1 .CircularProgressbar-path {
+    stroke: url("#bar1") !important;
+}
+
+.bar2 .CircularProgressbar-path {
+    stroke: url("#bar2") !important;
+}
+
+.bar3 .CircularProgressbar-path {
+    stroke: url("#bar3") !important;
+}
+
+.bar4 .CircularProgressbar-path {
+    stroke: url("#bar4") !important;
+}
+
+.bar5 .CircularProgressbar-path {
+    stroke: url("#bar4") !important;
+}
+
+.CircularProgressbar-trail {
+    stroke: #333333 !important ;
+}
+
+
+#product {
+    margin-top: 20px;
+}
+
+#product h5 {
+    position: absolute;
+    top: -70px;
+}
+
+#product .brand-name {
+    position: absolute;
+    top: -25px;
+    margin-left: 25px;
+}
+
+@media (min-width:992px) {
+    #product h5 {
+        top: -55px;
+    }
+
+    #product .brand-name {
+        top: -5px;
+        margin-left: 20px;
+    }
+}
+
+@media (min-width:1200px){
+    #product .brand-name {
+        top: -5px;
+        margin-left: 25px;
+    }
+}
+
+@media (max-width:500px) {
+    #product .brand-name {
+        margin-left: 15px;
+    }
+}
+

@@ -1,0 +1,30 @@
+#content-area {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.82);
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.row {
+    margin-right: 10%;
+}
+
+@media (min-width: 768px) {
+    #content-area {
+        margin-left: 232px;
+    }
+}
+
+@media (max-width: 768px) {
+    #content-area {
+        margin-top: 52px;
+    }
+}
+
+/*
+    Order Component Css
+ */
+
+#order>.table>tbody>tr>td, #order>.table>thead>tr>th {
+    border: none;
+}
