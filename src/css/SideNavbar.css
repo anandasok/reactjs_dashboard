@@ -35,8 +35,7 @@
 .navbar-form .form-control {
     background-color: #b3abab;
     border-radius: 18px;
-    background-position: 10px 5px;
-    background-repeat: no-repeat;
+    width: 100%;
 }
 
 input.empty {
